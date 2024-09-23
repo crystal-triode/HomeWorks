@@ -1,0 +1,8 @@
+my_string = input('В каком городе Вы родились: ')
+print(my_string .__len__())
+print(my_string.upper())
+print(my_string.lower())
+my_string = str('Я живу в ' + str(my_string))
+print(my_string.replace(" " , ""))
+print(my_string[0])
+print(my_string[-1])
