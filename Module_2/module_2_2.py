@@ -1,4 +1,4 @@
-first= int(float(input('Введите первое ЦЕЛОЕ число: ')))
+first = int(float(input('Введите первое ЦЕЛОЕ число: ')))
 second = int(float(input('Введите второе ЦЕЛОЕ число: ')))
 third = int(float(input('Введите третье ЦЕЛОЕ число: ')))
 if first == second == third:
