@@ -6,9 +6,15 @@ def get_matrix(n, m, value):
             matrix[i].append(value)
     return matrix
 
-result1 = get_matrix(2, 2, 10)
-result2 = get_matrix(3, 5, 42)
-result3 = get_matrix(4, 2, 13)
-print(result1)
-print(result2)
-print(result3)
+n = int(input('Введите количество строк матрицы: '))
+m = int(input('Введите количество столбцов матрицы: '))
+value = input('Введите значения матрицы: ')
+matrix = get_matrix(n, m, value)
+
+if n <= 0:
+    print('Задано неверное количество строк:', n)
+elif m <=0:
+    print('Задано неверное количество столбцов:' ,m)
+else:
+    for i in matrix:
+         print(*i)
